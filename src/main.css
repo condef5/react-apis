@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.leaflet-container {
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+header {
+  background: #191a1b;
+  position: fixed;
+  height: 60px;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul a {
+  font-weight: 700;
+  padding: 2px;
+  color: #a3a3b3;
+  margin: 0 1em;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+ul a:hover,
+a.active {
+  color: #fff;
+  border-color: #fff;
+}
