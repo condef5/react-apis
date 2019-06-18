@@ -4,7 +4,7 @@ import { Link } from "@reach/router";
 function ActiveLink(props) {
   function getProps({ isCurrent }) {
     return {
-      class: isCurrent ? "active" : ""
+      className: isCurrent ? "active" : ""
     };
   }
 
